@@ -1,45 +1,40 @@
-**Project Title: IPL Dataset Exploratory Data Analysis**
+🏏 **IPL Exploratory Data Analysis** (EDA)
+This project performs an in-depth exploratory data analysis on Indian Premier League (IPL) player statistics to uncover meaningful insights about player performance, match participation, and scoring trends.
 
-**Description:**
+📌 **Objectives**
+Clean and preprocess IPL player data.
 
-This project involves an exploratory data analysis (EDA) of an IPL (Indian Premier League) dataset. The analysis focuses on understanding player performance, identifying key statistics, and visualizing trends within the data.
+Analyze player performance metrics (e.g., matches played, scores, averages).
 
-**Key Highlights:**
+Identify top-performing players in various statistical categories.
 
-**Player Performance Analysis:**
+🛠️ **Tools & Libraries**
+Python: Data analysis scripting
 
-	Identified players with maximum matches played in a season.
-	Determined top players based on average scores, considering factors like half-centuries.
-	Analyzed player strike rates and compared them to the league average.
-	Evaluated players with high averages, strike rates, and balls faced.
-	Identified players with at least one century and those with at least four half-centuries.
-	Discovered players with high boundaries and sixes count.
-	Determined top 10 players with the most runs in a season.
-	Calculated and analyzed player's not out percentages.
+Pandas & NumPy: Data wrangling and transformation
 
-**Data Cleaning and Transformation:**
+Matplotlib & Seaborn: Data visualization
 
-	Cleaned the 'Highest Score' column by removing asterisks and converting it to an integer.
-	Created new columns for player first names and last names.
+🗃️ **Data**
+Dataset: IPL Data set Assignment.xlsm
 
-**Statistical Analysis:**
+Contains statistics for IPL players including scores, matches played, and averages.
 
-	Calculated the total number of centuries scored.
-	Performed correlation analysis between features and visualized it using a heatmap.
-	Calculated percentage of total runs scored in 4s and 6s.
+🔍 **Key Insights**
+Data Cleaning: Created a new column Cleaned_Highest_score by removing asterisks from the Highest_score field and converting it to integers.
 
-**Data Visualization:**
+Most Matches Played: Identified the player with the highest number of matches played in a season.
 
-	Generated a histogram of the number of matches played.
-	Generated a histogram of the balls faced by players.
-	Created visualizations for players with centuries.
-	Created visualization of the top 10 players with highest number of sixes.
-	Created a scatter plot to visualize the relationship between runs scored and balls faced.
+Top Performers by Average: Retrieved the top 2 players with the highest batting averages who have scored at least two half-centuries.
 
-**Technologies Used:**
+Filtering Techniques: Implemented conditional queries to extract meaningful player insights.
 
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn (for heatmap and other visualizations)
+Statistical Transformations: Converted string-based numeric data into usable numerical formats for analysis.
+
+📈 **Outcomes**
+Clear identification of high-performing IPL players based on different performance metrics.
+
+Demonstrated data cleaning techniques for sports datasets.
+
+Visualizations to support data-driven decisions for player selection and match strategies.
+
